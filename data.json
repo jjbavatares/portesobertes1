@@ -1,0 +1,121 @@
+{
+  "testCode": "JJB",
+  "routes": [
+    {
+      "origin": "Porteria · vidriera 2",
+      "destination": "Direcció General",
+      "pause": null,
+      "continueLabel": null,
+      "text": "Benvinguts al col·legi Santa Teresa de Jesús, les Tereses, de Vilanova i la Geltrú. Som un centre concertat d'inspiració cristiana, que forma part de la Fundació Escola Teresiana, amb més de cent quaranta anys d'història educativa a la ciutat.\n\nEl nostre projecte combina formació acadèmica, creixement personal i compromís amb els altres. A l'ESO acompanyem els joves perquè desenvolupin les seves capacitats, guanyin autonomia i aprenguin a conviure.\n\nAvui podeu conèixer l'escola al vostre ritme. A cada parada descobrireu una part de la nostra proposta. En acabar, un professor us atendrà a la sala d'actes per resoldre els vostres dubtes.",
+      "topic": "Una primera mirada al centre",
+      "parts": [
+        {
+          "file": "media/r1-tram-1.mp4",
+          "poster": "media/r1-tram-1-inici.jpg",
+          "map": "media/r1-tram-1-cami.jpg",
+          "floorLabel": "Planta baixa",
+          "instruction": "Fins al despatx de Direcció General"
+        }
+      ],
+      "avatar": "media/v1.mp4",
+      "avatarPoster": "media/v1-poster.jpg"
+    },
+    {
+      "origin": "Direcció General",
+      "destination": "Aula 2n A",
+      "pause": "Pugeu a la primera planta per l’escala central. Quan hi sigueu, premeu el botó.",
+      "continueLabel": "Ja som a la primera planta",
+      "text": "Una aula com aquesta és un espai per preguntar, compartir idees i aprendre a explicar allò que pensem.\n\nA l'ESO treballem amb projectes de recerca, experimentació i aprenentatge cooperatiu. Busquem que l'alumnat comprengui allò que estudia i ho pugui utilitzar per resoldre problemes, amb esforç i participació.\n\nEls idiomes també hi tenen un paper important: comptem amb auxiliar de conversa en anglès i oferim francès com a matèria optativa.\n\nMentre observeu l'aula, imagineu el vostre fill o filla participant, contrastant opinions i guanyant confiança per expressar-se. Aquesta autonomia es construeix al llarg de tota l'etapa.",
+      "topic": "Com aprenem a l’ESO",
+      "parts": [
+        {
+          "file": "media/r2-tram-1.mp4",
+          "poster": "media/r2-tram-1-inici.jpg",
+          "map": "media/r2-tram-1-cami.jpg",
+          "floorLabel": "Planta baixa",
+          "instruction": "Fins a l’escala central"
+        },
+        {
+          "file": "media/r2-tram-2.mp4",
+          "poster": "media/r2-tram-2-inici.jpg",
+          "map": "media/r2-tram-2-cami.jpg",
+          "floorLabel": "Primera planta",
+          "instruction": "Des de l’escala central fins a l’Aula 2n A"
+        }
+      ],
+      "avatar": "media/v2.mp4",
+      "avatarPoster": "media/v2-poster.jpg"
+    },
+    {
+      "origin": "Aula 2n A",
+      "destination": "Aula de Tecnologia",
+      "pause": "Pugeu a la segona planta per l’escala central. Quan hi sigueu, premeu el botó.",
+      "continueLabel": "Ja som a la segona planta",
+      "text": "Com es converteix una idea en una cosa que funciona? La tecnologia permet explorar aquesta pregunta fent, provant i corregint.\n\nA Secundària treballem la programació, la robòtica i la impressió en tres dimensions. Són oportunitats per aplicar coneixements, resoldre problemes i desenvolupar la creativitat.\n\nEl procés importa: planificar, comprovar per què alguna cosa falla i buscar una altra solució també és aprendre.\n\nA més, eduquem en l'ús segur i responsable d'Internet i de les eines digitals. Volem que el vostre fill o filla aprengui a utilitzar-les amb criteri, per crear i comprendre el món que l'envolta.",
+      "topic": "Aprendre creant",
+      "parts": [
+        {
+          "file": "media/r3-tram-1.mp4",
+          "poster": "media/r3-tram-1-inici.jpg",
+          "map": "media/r3-tram-1-cami.jpg",
+          "floorLabel": "Primera planta",
+          "instruction": "Fins a l’escala central"
+        },
+        {
+          "file": "media/r3-tram-2.mp4",
+          "poster": "media/r3-tram-2-inici.jpg",
+          "map": "media/r3-tram-2-cami.jpg",
+          "floorLabel": "Segona planta",
+          "instruction": "Continueu pel Laboratori fins a Tecnologia"
+        }
+      ],
+      "avatar": "media/v3.mp4",
+      "avatarPoster": "media/v3-poster.jpg"
+    },
+    {
+      "origin": "Aula de Tecnologia",
+      "destination": "Aula 4t B",
+      "pause": null,
+      "continueLabel": null,
+      "text": "En arribar a quart d'ESO, les preguntes sobre el futur comencen a prendre forma: què m'interessa, què se'm dona bé i què vull continuar estudiant.\n\nDurant l'etapa oferim orientació i acompanyament personalitzat. A quart, l'alumnat tria el seu itinerari tenint en compte els seus interessos i els estudis que vol continuar.\n\nTambé cuidem el present. Comptem amb tutoria setmanal, atenció als diferents ritmes d'aprenentatge i gabinet psicopedagògic propi.\n\nCréixer en autonomia requereix oportunitats per decidir, però també adults que escoltin i ajudin a trobar el pas següent.",
+      "topic": "Acompanyament i futur",
+      "parts": [
+        {
+          "file": "media/r4-tram-1.mp4",
+          "poster": "media/r4-tram-1-inici.jpg",
+          "map": "media/r4-tram-1-cami.jpg",
+          "floorLabel": "Segona planta",
+          "instruction": "Sortiu pel Laboratori i seguiu el passadís"
+        }
+      ],
+      "avatar": "media/v4.mp4",
+      "avatarPoster": "media/v4-poster.jpg"
+    },
+    {
+      "origin": "Aula 4t B",
+      "destination": "Sala d’actes",
+      "pause": "Baixeu dues plantes per l’escala central, fins a la planta baixa. Quan hi sigueu, premeu el botó.",
+      "continueLabel": "Ja som a la planta baixa",
+      "text": "Ara és el vostre torn. Heu conegut alguns espais i propostes de la nostra ESO; aquí podeu parlar amb un professor i preguntar allò que més us importi.\n\nCom acompanyem l'arribada a primer, com treballem la convivència, quin suport oferim davant les dificultats o com ajudem a triar els estudis posteriors.\n\nSi heu vingut amb el vostre fill o filla, animeu-lo també a preguntar. La seva opinió compta en aquesta decisió.\n\nGràcies per recórrer l'escola al vostre ritme. Volem que marxeu amb informació clara i pugueu valorar si el nostre projecte encaixa amb allò que busqueu per a la vostra família.",
+      "topic": "Conversem i resolem dubtes",
+      "parts": [
+        {
+          "file": "media/r5-tram-1.mp4",
+          "poster": "media/r5-tram-1-inici.jpg",
+          "map": "media/r5-tram-1-cami.jpg",
+          "floorLabel": "Segona planta",
+          "instruction": "Des de l’Aula 4t B fins a l’escala central"
+        },
+        {
+          "file": "media/r5-tram-2.mp4",
+          "poster": "media/r5-tram-2-inici.jpg",
+          "map": "media/r5-tram-2-cami.jpg",
+          "floorLabel": "Planta baixa",
+          "instruction": "Des de l’escala central fins a la Sala d’actes"
+        }
+      ],
+      "avatar": "media/v5.mp4",
+      "avatarPoster": "media/v5-poster.jpg"
+    }
+  ]
+}

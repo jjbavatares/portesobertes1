@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#21151c"><meta name="description" content="Descobreix l’ESO de Santa Teresa Vilanova al teu ritme.">
+  <title>Santa Teresa Vilanova, portes endins</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header"><a href="#" id="brand" aria-label="Inici de la visita"><span class="brand-symbol" aria-hidden="true">ST<span>V</span></span><span>Santa Teresa <b>Vilanova</b></span></a><button id="help" class="text-button">Ajuda</button></header>
+  <div id="test-banner" hidden>Mode de proves <button id="exit-test">Sortir del mode de proves</button></div>
+  <main id="app" tabindex="-1"><p class="loading">Preparant la visita…</p></main>
+  <footer><span>Portes obertes · ESO</span><button id="test-access" class="text-button">Accés de proves</button></footer>
+  <dialog id="dialog" aria-labelledby="dialog-title"><div id="dialog-body"></div><button class="dialog-close" aria-label="Tancar" id="close-dialog">×</button></dialog>
+  <script src="vendor/jsQR.js" defer></script><script type="module" src="app.js"></script>
+</body>
+</html>

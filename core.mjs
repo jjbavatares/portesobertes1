@@ -1,0 +1,6 @@
+export const fresh=()=>({screen:'welcome',route:0,part:0,visited:[],done:false});
+export function validState(s,routes){return !!s&&['welcome','scan','travel','pause','avatar','after','finish'].includes(s.screen)&&Number.isInteger(s.route)&&s.route>=0&&s.route<routes.length&&Number.isInteger(s.part)&&s.part>=0&&s.part<routes[s.route].parts.length&&Array.isArray(s.visited)&&s.visited.every(n=>Number.isInteger(n)&&n>=0&&n<routes.length)&&typeof s.done==='boolean'&&(s.screen!=='pause'||routes[s.route].parts.length>1);}
+export function parseCode(raw,origin,basePath='/'){let code=String(raw).trim().toUpperCase();if(/^https?:/i.test(raw)){try{const u=new URL(raw);if(u.origin!==origin||![basePath,basePath+'index.html'].includes(u.pathname))return null;code=(u.searchParams.get('r')||'QR0').toUpperCase();}catch{return null;}}if(code==='QR0')return -1;const m=code.match(/^(?:QR|R)([1-5])$/);return m?Number(m[1])-1:null;}
+export function afterTravel(s,routes){return {...s,screen:s.part<routes[s.route].parts.length-1?'pause':'travel'};}
+export function continueFloor(s,routes){if(s.screen!=='pause'||s.part>=routes[s.route].parts.length-1)return s;return {...s,part:s.part+1,screen:'travel'};}
+export function finishAvatar(s){return {...s,screen:'after',visited:[...new Set([...s.visited,s.route])]};}
